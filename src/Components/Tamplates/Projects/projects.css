@@ -1,0 +1,43 @@
+.Projects {
+  text-align: center;
+  border-bottom: 1px solid #dcd9d9;
+  background: #f2f2f5;
+  padding: 60px 0px 100px 0px;
+  width: 100%;
+
+  margin-top: 30px;
+}
+.projektet {
+  width: 60%;
+  background: white;
+  padding: 50px;
+  margin-left: 17%;
+  border: 0.5px #dcd9d9 solid;
+}
+.project-btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.project-btn:hover {
+  color: rgba(33, 125, 187, 0.8);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.projektet-kontinier {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.project-img {
+  width: 70%;
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  .project-img {
+    width: 100%;
+    margin: auto;
+  }
+}

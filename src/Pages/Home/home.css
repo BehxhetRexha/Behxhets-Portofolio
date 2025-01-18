@@ -1,0 +1,108 @@
+.hh-text {
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  color: #374054;
+}
+hr {
+  width: 60px;
+  margin-top: -10px;
+  margin-left: 48%;
+  border-radius: 60px;
+  position: absolute;
+  height: 1.5px;
+  background-color: rgba(33, 125, 187, 0.8);
+}
+.about-para {
+  padding: 40px;
+  width: 80%;
+  margin: auto;
+}
+
+p {
+  color: #74808a;
+}
+
+.about-text1 {
+  font-size: 25px;
+  color: #7e8890;
+}
+
+.Contact {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Contact label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.Contact input[type="email"],
+.Contact textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+.Contact input[type="email"]:focus,
+.Contact textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+}
+.Contact button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #fff;
+  background-color: rgba(33, 125, 187, 0.8);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 95%;
+  transition: background-color 0.3s;
+  text-align: center;
+  margin-left: 8%;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.Contact button:hover {
+  background-color: #0056b3;
+}
+
+.Contact button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.allContact h1 {
+  color: white;
+}
+
+.Contact p {
+  font-size: 16px;
+  color: green;
+  text-align: center;
+}
+.allContact {
+  background-color: #3498db;
+  height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Banner-h1 {
+    font-size: 25px;
+    color: white;
+  }
+}

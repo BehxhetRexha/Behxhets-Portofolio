@@ -1,0 +1,57 @@
+.Banner {
+  background-color: rgba(33, 125, 187, 0.8);
+  width: 76%;
+  padding: 12%;
+}
+.Banner-hpi {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.Banner-HP {
+  margin-top: 8%;
+}
+
+.Banner-h1 {
+  font-size: 505%;
+  color: white;
+}
+.banner-img {
+  float: right;
+  width: 45%;
+  margin-left: 200px;
+  border-radius: 40px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.para-banner {
+  font-size: 30px;
+  color: aqua;
+}
+
+@media only screen and (max-width: 600px) {
+  .Banner {
+    height: 400px;
+  }
+  .banner-img {
+    width: 100px;
+    padding: 0;
+  }
+  .Banner-h1 {
+    font-size: 25px;
+    color: white;
+  }
+  .Banner-HP {
+    margin-top: 80px;
+  }
+  .para-banner {
+    font-size: 15px;
+    justify-content: center;
+    float: left;
+    text-align: center;
+    color: aqua;
+  }
+}

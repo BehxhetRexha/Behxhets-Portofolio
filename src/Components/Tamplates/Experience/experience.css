@@ -1,0 +1,20 @@
+.Experience {
+  text-align: center;
+  border-bottom: 1px solid #dcd9d9;
+  background: #f2f2f5;
+  padding: 60px 0px 100px 0px;
+  width: 100%;
+}
+.jobs {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Jobs {
+  width: 40%;
+  background: white;
+  padding: 50px;
+
+  border: 0.5px #dcd9d9 solid;
+}

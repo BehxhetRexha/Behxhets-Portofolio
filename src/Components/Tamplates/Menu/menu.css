@@ -1,0 +1,77 @@
+.Menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-left: 27%;
+  padding: 20px;
+  width: 40%;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.menu-Logo {
+  font-size: 22px;
+  margin-right: 10px;
+  padding: 7px;
+}
+
+.menu_button {
+  padding: 10px;
+  color: rgba(33, 125, 187, 0.8);
+  background-color: transparent;
+  border: none;
+}
+
+.menu_button:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.menu-items {
+  display: flex;
+}
+
+@media (max-width: 868px) {
+  .Menu {
+    flex-direction: column;
+    width: 96%;
+    margin: 0 auto;
+    height: 20px;
+  }
+
+  .menu-toggle {
+    margin-top: -40px;
+    position: a;
+
+    display: block;
+  }
+
+  .menu-items {
+    display: none;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .menu-items.show {
+    margin-top: 200px;
+    display: flex;
+  }
+
+  .menu_button {
+    margin: 5px 0;
+    width: 100%;
+  }
+}
