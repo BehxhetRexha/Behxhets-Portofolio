@@ -1,6 +1,9 @@
 .hh-text {
   text-align: center;
   padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 h1 {
   color: #374054;
@@ -14,19 +17,9 @@ hr {
   height: 1.5px;
   background-color: rgba(33, 125, 187, 0.8);
 }
-.about-para {
-  padding: 40px;
-  width: 80%;
-  margin: auto;
-}
 
 p {
   color: #74808a;
-}
-
-.about-text1 {
-  font-size: 25px;
-  color: #7e8890;
 }
 
 .Contact {

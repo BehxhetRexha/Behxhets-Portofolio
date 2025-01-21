@@ -9,7 +9,6 @@ function Menu() {
   const [isInView, setIsInView] = useState(false);
   const menuRef = useRef(null);
 
-  // Use Intersection Observer to detect visibility
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {

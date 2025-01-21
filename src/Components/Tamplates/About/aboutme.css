@@ -1,0 +1,12 @@
+.about-para {
+  padding: 40px;
+  width: 80%;
+  margin: auto;
+}
+.about-me {
+  display: flex;
+}
+.about-text1 {
+  font-size: 25px;
+  color: #7e8890;
+}

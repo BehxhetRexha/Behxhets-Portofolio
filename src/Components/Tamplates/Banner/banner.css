@@ -1,14 +1,10 @@
-.Banner {
-  background-color: rgba(33, 125, 187, 0.8);
-  width: 76%;
-  padding: 12%;
-}
 .Banner-hpi {
   display: flex;
   justify-content: space-between;
   margin: auto;
   text-align: center;
   flex-wrap: wrap;
+  padding: 14%;
 }
 .Banner-HP {
   margin-top: 8%;
@@ -20,7 +16,7 @@
 }
 .banner-img {
   float: right;
-  width: 45%;
+  width: 48%;
   margin-left: 200px;
   border-radius: 40px;
   flex-wrap: wrap;

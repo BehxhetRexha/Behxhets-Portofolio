@@ -18,3 +18,12 @@
 
   border: 0.5px #dcd9d9 solid;
 }
+.hi {
+  text-align: center;
+  margin-left: 7%;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.hi img {
+  width: 39%;
+}
